@@ -185,7 +185,18 @@ You can run any of the examples with cargo:
 ```sh
 $ cargo run --example add_file
 ```
-
+For run IPFS Upload & Contract Registry:  
+* Firstable create a file in the root of this git repo folder.  
+* If you don't have Solidity Compiler installed, you can run:  
+```sh
+$ ./run.sh 
+```  
+* If you already have Solidity Compiler installed, you can run the following command in the root of this git repo folder.   
+```sh
+$ cargo run --example add_file file.txt
+```   
+The result should be like the following:  
+![result](./images/result.png)
 
 ## License
 
